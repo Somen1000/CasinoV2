@@ -1,23 +1,26 @@
 
 messages:
-  game_started: "§a{player}さんがダブルサイコロを開始しました！ 掛け金：§e{amount}円 コマンド/chn low か /chn high か /chn lucky7 で参加できます。"
-  game_not_start: "§cまだゲームが開始されていません！"
-  game_another_started: "他のゲームがすでに開始されています。"
-  not_enough_money: "§c所持金が足りないため参加できません！"
-  already_participated: "§cすでに参加済みです！"
-  joined_game: "§a{player}さんがゲームに参加しました！ 残り時間: {time}秒"
-  game_time: "§a残り時間: {time}秒"
-  choose_high: "§a{player}さんは、高いにかけました。"
-  choose_low: "§a{player}さんは、低いにかけました。"
-  choose_medium: "§a{player}さんは、ラッキーセブンにかけました。"
-  draw_started: "§a抽選を開始しています..."
-  draw_dice1: "§a1つめのサイコロの出目は{number}でした。"
-  draw_dice2: "§a2つめのサイコロの出目は{number}でした。"
-  draw_result: "§e結果は{result}でした！"
-  winner_paid: "§aあなたは{select}を選び、あなたに{amount}円が支払われました。おめでとうございます！"
+  game_started: "§f[§d§lダブルサイコロ§f] §6{player}§a§lさんがダブルサイコロを開始しました！ 
+  \n§e§l掛け金§7§l：§b§l{amount}§e§l円 "
+  game_not_start: "§f[§d§lダブルサイコロ§f] §c&l開催中のゲームはありません！"
+  game_another_started: "§f[§d§lダブルサイコロ§f] §c§l他のゲームがすでに開始されています。"
+  list_player : "§a{select}にかけたプレイヤー: §6{players}"
+  not_enough_money: "§f[§d§lダブルサイコロ§f] §c&l所持金が足りないため参加できません！"
+  already_participated: "§f[§d§lダブルサイコロ§f] §c§lすでに参加済みです！"
+  joined_game: "§f[§d§lダブルサイコロ§f] §6{player}§aさんがゲームに参加しました！ 残り時間§7: §e{time}秒"
+  game_time: "§f[§d§lダブルサイコロ§f] §a残り時間§7: §e{time}秒"
+  choose_high: "§f[§d§lダブルサイコロ§f] §6{player}§aさんは、§a§l高い§aにかけました。"
+  choose_low: "§f[§d§lダブルサイコロ§f] §6{player}§aさんは、§c§l低い§aにかけました。"
+  choose_medium: "§f[§d§lダブルサイコロ§f] §6{player}§aさんは、§b§lラッキーセブン§aにかけました。"
+  draw_started: "§f[§d§lダブルサイコロ§f] §a抽選を開始しています..."
+  draw_dice1: "§f[§d§lダブルサイコロ§f] §a§l1つめのサイコロの出目は §e§l{number} §a§lでした。"
+  draw_dice2: "§f[§d§lダブルサイコロ§f] §a§l2つめのサイコロの出目は §e§l{number} §a§lでした。"
+  draw_result: "§f[§d§lダブルサイコロ§f] §e§l結果は §b§l{result} §e§lでした！"
   winner_result: "§a当選者: {winners}"
-  loser_message: "§cあなたは{select}を選び、賭けに失敗しました！"
-  canceled: "§e抽選はキャンセルされました。{amount}円を返金します。"
+  winner_paid: "§f[§d§lダブルサイコロ§f] §a§あなたは §e§l{select} §a§lを選び見事当選し、報酬§b§l{amount}円§a§lを獲得しました。\n§b§lおめでとうございます！"
+  loser_message: "§f[§d§lダブルサイコロ§f] §c§lあなたは §e{select} §c§lを選びはずれ、賭け金を失いました"
+  canceled: "§f[§d§lダブルサイコロ§f] §e§l抽選はキャンセルされました。"
+
 
 odds:
   favor_majority: true

@@ -44,19 +44,21 @@ public class CommandHandler implements CommandExecutor {
                 break;
 
             case "high":
-                gameManager.joinGame(player);
                 gameManager.highJoin(player);
                 break;
 
             case "low":
-                gameManager.joinGame(player);
                 gameManager.lowJoin(player);
                 break;
 
             case "lucky7":
-                gameManager.joinGame(player);
                 gameManager.mediumJoin(player);
                 break;
+
+            case "list":
+                gameManager.getParticipant(player);
+                break;
+
 
             default:
                 player.sendMessage("§c無効なサブコマンドです！");
